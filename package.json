@@ -1,0 +1,35 @@
+{
+  "name": "@justiceoftoren/kv-sync-api",
+  "version": "0.0.2",
+  "description": "Save and replicate encrypted key value pairs from the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "dunno"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mcsherrylabs/kv-sync-api.git"
+  },
+  "keywords": [
+    "iohk",
+    "data",
+    "vault"
+  ],
+  "author": "Breq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcsherrylabs/kv-sync-api/issues"
+  },
+  "homepage": "https://github.com/mcsherrylabs/kv-sync-api#readme",
+  "dependencies": {
+    "axlsign": "^1.0.0",
+    "js-sha3": "^0.8.0",
+    "typescript": "^5.1.6",
+    "utf8": "^3.0.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/websocket": "^1.0.5",
+    "axlsign": "^1.0.0"
+  }
+}
